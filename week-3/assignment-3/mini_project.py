@@ -2,6 +2,10 @@
 day = input("What day is it? ").strip().lower()
 time_of_day = input("What time of day is it? (morning, afternoon, evening) ").strip().lower()
 
+# Check whether the time of day is valid
+if time_of_day not in ["morning", "afternoon", "evening"]:
+    print("Invalid time of day. Please enter morning, afternoon, or evening.")
+
 # Suggest an activity based on the day and time of day
 if day == "monday":
     if time_of_day == "morning":
