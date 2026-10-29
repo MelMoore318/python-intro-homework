@@ -1,0 +1,12 @@
+# Ask the user for their age
+age = int(input("Enter your age: "))
+
+# Check which age category the user belongs to
+if age >= 0 and age <= 12:
+    print("You are a Child.")
+elif age >= 13 and age <= 17:
+    print("You are a Teen.")
+elif age >= 18 and age <= 64:
+    print("You are an Adult.")
+else:
+    print("You are a Senior.")
