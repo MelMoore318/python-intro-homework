@@ -9,10 +9,10 @@ student = {
 
 # Print each key-value pair using .items()
 for key, value in student.items():
-    print(f"{key}: {value}")
+  print(f"{key}: {value}")
 
   # Add a new key called graduated
-  student["graduated"] = False
+student["graduated"] = False
 
 # Print the updated dictionary
 print("Updated dictionary:", student)
